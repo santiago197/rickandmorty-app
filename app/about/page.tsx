@@ -1,7 +1,7 @@
-import styles from './page.module.css';
+import styles from '../page.module.css';
 import Link from 'next/link';
 
-export default function Home() {
+export default function About() {
 	return (
 		<main className={styles.main}>
 			<div className={styles.description}>
@@ -12,10 +12,7 @@ export default function Home() {
 			</div>
 
 			<div className={styles.center}>
-				<h1>
-					Ir a <Link href="/about">About</Link>
-				</h1>
-				Ir a <Link href="/about">About</Link>
+				Ir a <Link href="/">Home</Link>
 			</div>
 		</main>
 	);
