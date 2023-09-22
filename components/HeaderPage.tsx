@@ -12,6 +12,10 @@ const links = [
 		label: 'About',
 		route: '/about',
 	},
+	{
+		label: 'Capitulos',
+		route: '/character',
+	},
 ];
 
 export default function HeaderPage() {
